@@ -1,0 +1,24 @@
+
+#header {
+    background-color: darkorange;
+    text-align: center;
+}
+h1{
+    margin-bottom: 0;
+}
+#menu {
+    background-color: darkorchid;
+
+    float: left;
+}
+#content{
+    background-color: dark  turquoise;
+;
+    float: left;
+}
+#footer{
+    background-color: deeppink;
+    clear: both;
+    text-align: center;
+}
+
