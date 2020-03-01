@@ -1,0 +1,8 @@
+/*header,section,footer,aside,nav,main,article,figure{
+    display: block;
+}
+*/
+#myCanvas
+{
+    border: 10px solid #000000;
+}
