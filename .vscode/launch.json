@@ -10,7 +10,7 @@
             //关联另外一个进程进行debug，还有一个选项是lauch，直接启动进程
             "request": "launch",
             "name": "Chrome调试",
-            "file":"${workspaceFolder}/pages/h5-test.html",
+            "file":"${workspaceFolder}/pages/test1.html",
             //访问端口，live server的9222端口，也就是上面配置的
             "sourceMaps":true,
             "webRoot": "${workspaceFolder}"
