@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "chrome Launch localhost",
+            "type": "chrome",
+            "request": "launch",
+            "reAttach": true,
+            "url": "http://localhost/index.html",
+            "webRoot": "${workspaceFolder}",
+            "file": "${workspaceFolder}/index.html"
+        }
+    ]
+}
