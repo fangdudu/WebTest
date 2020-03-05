@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>form</title>
+    <link href="/style/css/form.css" rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <h1>Payment form</h1>
+        <p>Required fileds are allowed by <strong><abbr title="required">*</abbr></strong>.</p>
+        <section>
+            <h2>Contract info</h2>
+            <fieldset>
+                <legend>Title</legend>
+                <ul>
+                    <li>
+                        <label for="title_1">
+                            <input type="radio" name="title" id="title_1" value="M.">
+                            Master
+                        </label>
+                    </li>
+                    <li>
+                        <label for="title_2">
+                            <input type="radio" name="title" id="title_2" value="Ms.">
+                            Master
+                        </label>
+                    </li>
+                </ul>
+            </fieldset>
+            <p>
+                <label for="name">
+                    <span>Name:</span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="text" id="name" name="username">
+            </p>
+            <p>
+                <label for="mail">
+                    <span>Mail:</span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="text" id="mail" name="usermail">
+            </p>
+            <p>
+                <label for="pwd">
+                    <span>Password:</span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="password" id="pwd" name="password">
+            </p>
+        </section>
+        <section>
+            <h2>Payment info</h2>
+            <p>
+                <label for="card">
+                    <span>Card Type:</span>
+                </label>
+                <select name="usercard" id="card">
+                    <option value="visa">Visa</option>
+                    <option value="mc">mc</option>
+                    <option value="amex">amex</option>
+                </select>
+            </p>
+            <p>
+                <label for="number">
+                    <span>Card number</span>
+                    <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="number" id="number" name="cardnumber">
+            </p>
+            <p>
+                <label for="date">
+                    <span>expiration date</span>
+                    <strong><abbr title="required">*</abbr></strong>
+                    <em>formatted as mm/yy</em>
+                </label>
+                <input type="date" id="date" name="expiration">
+            </p>
+
+        </section>
+        <p><button type="submit">Validate the payment</button></p>
+    </form>
+</body>
+
+</html>
